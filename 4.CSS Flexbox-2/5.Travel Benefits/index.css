@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.bg-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 36px;
+    color: #183b56;
+    text-align: center;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #5a7184;
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.travel-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 85%;
+    max-width: 900px;
+    margin-top: 32px;
+}
+
+.travel-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 32px;
+
+}
+
+.image {
+    width: 80px;
+    height: 80px;
+}
+
+.heading1 {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #183b56;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.description {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: #5a7184;
+    text-align: center;
+    margin-top: 4px;
+}
